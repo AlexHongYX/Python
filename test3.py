@@ -34,3 +34,52 @@
 # print(func.__doc__)
 # # help：查看文档
 # help(func)
+
+# type返回的是一个对象，这个对象的类型就是type类型
+# Null/None——无意义的值
+# def func():
+#     x = 10
+#     print(x)
+
+# a = func()
+# print(a)
+
+# import math
+# for i in range(1,10):
+#     print(round(math.pi,i))
+
+# 随机种子
+# import random
+# print(random.randint(1,6))
+
+# # 函数叫做“可调用对象”
+# def outer():
+#     def inner():
+#         print("hehe")
+#     inner()
+
+# outer()
+
+# 关键字参数
+# def print_point(x=0,y=0,z=0):
+#     print(x,y,z)
+
+# print_point(x=100,z=100)
+
+# a = [9,5,2,7]
+# b = sorted(a,reverse=True)
+# print(a,b)
+
+# # data相当于是一个列表
+# def log(*data):
+#     for d in data:
+#         print(d)
+
+# log(10,30)
+# # data相当于是一个元组
+# def log(**data):
+#     for key in data:
+#         print(key,data[key])
+
+# log(x=1,y=2,z=3)
+
